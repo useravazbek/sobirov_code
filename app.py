@@ -229,3 +229,17 @@
 
 # print()
 # print(f"Sizning to'liq summangiz: ${total}")
+
+
+
+
+# ================== new code =====================
+
+ismlar = ["Ali", "Vali", "Guli", "Soli"]
+familiyalar = ["Karimov", "Sobirov", "Ahmedov", "Toshpulatov"]
+shariflar = ["O'g'li", "Qizi"]
+
+toliq_ism = [ismlar, familiyalar, shariflar]
+
+ismlar[0] = "Anvar"
+print(ismlar)
