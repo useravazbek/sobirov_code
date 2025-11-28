@@ -131,6 +131,101 @@
 # # print(help(meva))
 
 
-a = 23
-b = 32
-print(a + b)
+
+
+# random>>> tasodifiy son yoki belgilarni tanlash uchun ishlatiladi
+# random funksiyasi 0 bilan 1 orasidagi sonlarga bittasini tanlab beradi
+# randrange ma'lum oraliqdagi butub sonlarni tanlab beradi (start,stop,step)
+### stop-1 gacha qabul qiladi
+# randit() bu funksiya a va b oraliqdagi tasodifiy tanlab beradi (a,b)
+#  bunda b ni ham qabul qiladi
+
+
+# import random
+# for i in range():
+#     x = random.randint(i)
+#     print(x)
+
+
+
+
+# ======================================
+
+# fuits = ["apple", "banana", "cherry","orange", "kiwi", "melon", "mango"]
+# print(dir(fuits))
+# print(help(fuits))
+# print(len(fuits))
+# print("piple" in fuits)
+
+# fuits[0] = "avocado"
+# fuits.append("piple")
+# fuits.remove("apple")
+# fuits.insert(1, "grape")
+# fuits.sort()
+# fuits.reverse()
+# fuits.clear()
+
+# print(fuits.index("apple"))
+# print(fuits.count("apple"))
+
+
+# for fur in fuits:
+#     print(fur)
+
+
+# mevalar = {"olma", "anor", "banan","shaftoli", "uzum"}
+# print(dir(mevalar))
+# print(help(mevalar))
+# print(len(mevalar))
+# print("piple" in mevalar)
+
+# mevalar.add("piple")
+# mevalar.remove("olma")
+# mevalar.pop()
+# mevalar.clear()
+
+# print(mevalar)
+
+
+# mevalar = ("olma", "anor", "banan","shaftoli", "uzum")
+# print(dir(mevalar))
+# print(help(mevalar))
+# print(len(mevalar))
+# print("piple" in mevalar)
+
+# print(mevalar.index("olma"))
+
+# print(mevalar.count("olma"))
+
+
+# print(mevalar)
+
+# for meva in mevalar:
+#     print(meva)
+
+
+# ================SHOPPOING CART PROGRAM======================
+# pishirq = []
+# meva = []
+# sabzavot = []
+# total = 0
+
+# while True:
+#        food = input("Olmoqchi bo'lgan maxshulotni kiriting (q chiqish): >>> ")
+#        if food.lower() == "q":
+#               break
+#        else:
+#               price = float(input(f"Summani kiriting dollarda {food}: $"))
+#               pishirq.append(food)
+#               meva.append(price)
+
+# print("----- YOUR SHOPPING CART -----")
+
+# for food in pishirq:
+#        print(food, end=" ")
+
+# for price in meva:
+#        total += price
+
+# print()
+# print(f"Sizning to'liq summangiz: ${total}")
