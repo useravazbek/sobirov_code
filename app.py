@@ -235,11 +235,19 @@
 
 # ================== new code =====================
 
-ismlar = ["Ali", "Vali", "Guli", "Soli"]
-familiyalar = ["Karimov", "Sobirov", "Ahmedov", "Toshpulatov"]
-shariflar = ["O'g'li", "Qizi"]
+# ismlar =      ["Ali", "Vali", "Guli", "Soli"]
+# familiyalar = ["Karimov", "Sobirov", "Ahmedov", "Toshpulatov"]
+# shariflar =   ["O'g'li", "Qizi"]
 
-toliq_ism = [ismlar, familiyalar, shariflar]
+# toliq_ism = [ {"Ali", "Vali", "Guli", "Soli"},
+#               {"Karimov", "Sobirov", "Ahmedov", "Toshpulatov"},
+#               {"O'g'li", "Qizi"}]
 
-ismlar[0] = "Anvar"
-print(ismlar)
+# for collection in toliq_ism:
+#     for item in collection:
+#         print(item, end=" ")
+#     print()
+
+
+# ismlar[0] = "Anvar"
+# print(toliq_ism[0][0]) # bu joyda [] ichiga mavjud bo'lgan indexni kiritishingiz mumkin ammo yo'q index kiritsangiz xatolik beradi
