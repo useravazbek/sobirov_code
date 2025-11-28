@@ -251,3 +251,46 @@
 
 # ismlar[0] = "Anvar"
 # print(toliq_ism[0][0]) # bu joyda [] ichiga mavjud bo'lgan indexni kiritishingiz mumkin ammo yo'q index kiritsangiz xatolik beradi
+
+
+
+
+# ================NUM PAD======================
+# num_pad = ((1,2,3),
+#            (4,5,6),
+#            (7,8,9),
+#            ("*",0,"#"))
+# for row in num_pad:
+#     for num in row:
+#         print(num)
+
+# ======================================
+# =======PYTHON QUIZ GAME===============
+
+questions = ("Pyhton nima ? " ,
+             "Pythonda nechta number turlari bor ? ",
+             "Python dasturlash tili kim tomonidan yaratilgan ? ",
+             "Python qachon yaratilgan ? ",
+             "Python qaysi maqsadda yaratilgan ? ")
+
+options = (("A. dasturlash tili","B. o'yin","C. web sayt","D. mobil ilova"),
+           ("A. 6","B. 2","C. 9", "D. 1"),
+           ("A. Gvido van Rossum","B. Stive Jobs","C. Marko ","D. Ilon musk"),
+           ("A. 1989","B. 1982","C. 1981", "D 1980"),
+           ("A. veb dasturlash","B. umumiy maqsadlar uchun","C. o'yin yaratish", "D. sun'iy intellekt"))
+
+answers = [" A", " B", " A", " A", " B"]
+guesses = []
+score = 0
+question_num = 0
+
+
+for question in questions:
+       print("-------------------------")
+       print(question)
+       for option in options[question_num]:
+              print(option)
+
+       guess = input("Your answer (A, B, C, D): ").upper()
+       guesses.append(guess)
+       question_num += 1
